@@ -4,14 +4,14 @@ body {
     background-image: url("https://img.freepik.com/fotos-premium/fundo-astrologico-bola-de-cristal-com-previsoes-horoscopo-das-estrelas-adivinhacao-da-sorte-e-determinacao-do-destino-adivinho-com-bola-de-cristal_494741-32607.jpg");
     background-color: #000000;
     background-size: cover;
-    background-position: center bottom;
+    background-position: center left;
     background-repeat: no-repeat;
   }
   
   .container {
     text-align: center;
     padding: 20px;
-    height: 100vh;
+    height: 92.8vh;
   }
   
   .page-title {
