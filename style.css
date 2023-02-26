@@ -1,4 +1,7 @@
+
+
 body {
+    
     font-family: "Roboto Mono", monospace;
     min-height: 600px;
     background-image: url("https://img.freepik.com/fotos-premium/fundo-astrologico-bola-de-cristal-com-previsoes-horoscopo-das-estrelas-adivinhacao-da-sorte-e-determinacao-do-destino-adivinho-com-bola-de-cristal_494741-32607.jpg");
@@ -7,11 +10,14 @@ body {
     background-position: center left;
     background-repeat: no-repeat;
   }
+  body::-webkit-scrollbar{
+    display: none;
+  }
   
   .container {
     text-align: center;
     padding: 20px;
-    height: 92.8vh;
+    height: 90vh;
   }
   
   .page-title {
