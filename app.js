@@ -11,9 +11,22 @@ function Chutar() {
 
   if (valor === numeroSecreto) {
     alert("Parabéns você acertou!");
+    focus('input');
   } else if (valor > numeroSecreto) {
     alert(`ERROU... O numero e menor que ${valor}`);
+    focus('input');
   } else if (valor < numeroSecreto) {
     alert(`ERROU... O numero e maior que ${valor}`);
+    focus('input');
   }
 }
+
+  function pressionaEnter(){
+    document.addEventListener('keypress', function(e){
+      if(e.keyCode === 13){
+         Chutar();
+      }
+   }, false);
+}
+
+pressionaEnter();
